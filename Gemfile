@@ -3,8 +3,8 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra', '~> 2.0', '>= 2.0.8.1' #web framework
-gem 'rspec', '~> 3.9' #unit testing
+gem 'sinatra'
+gem 'rspec'
 gem 'simplecov', '~> 0.18.5' #coverage report
 gem 'simplecov-console', '~> 0.7.2' #coverage console report
 gem 'cucumber', '~> 3.1', '>= 3.1.2' # aceptance testting
@@ -14,4 +14,5 @@ gem 'rack-test', '~> 1.1'# default web driver for capybara
 gem 'better_errors', '~> 2.7' #better log errors on web
 gem "rubycritic"
 gem 'rubocop'
+gem 'rake'
 
